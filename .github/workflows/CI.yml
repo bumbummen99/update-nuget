@@ -18,7 +18,9 @@ jobs:
         run: npm run build
       - 
         name: Test
-        run: npm run test
+        run: |
+          chmod 0777 ./node_modules/.bin/mocha
+          npm run test
       -
         name: Lint
         run: npm run lint
