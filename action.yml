@@ -1,5 +1,5 @@
-name: 'nuget update'
-description: 'update project NuGet packages'
+name: 'nuget dependency update'
+description: 'Automate nuget dependency updates for your project'
 author: 'Bchir'
 runs:
   using: 'node12'
