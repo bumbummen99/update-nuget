@@ -1,7 +1,7 @@
 {
   "name": "nuget-dependency-update",
   "version": "1.0.0",
-  "description": "github action to update all nuget packages in a solution",
+  "description": "Automate nuget dependency updates for your solution",
   "scripts": {
     "build": "tsc",
     "test": "mocha -r ts-node/register **/*.test.ts",
