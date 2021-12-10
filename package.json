@@ -1,5 +1,5 @@
 {
-  "name": "update-nuget",
+  "name": "nuget-dependency-update",
   "version": "1.0.0",
   "description": "github action to update all nuget packages in a solution",
   "scripts": {
