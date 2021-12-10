@@ -7,7 +7,7 @@ export const InstallPackage = async (nPackage: nugetPackage, projectPath: string
     try {
         await exec(`dotnet add ${projectPath} package ${nPackage.name} -v ${nPackage.latestVersion}`);
         return true
-    } catch (error: string) {
+    } catch (error: any) {
         info(error)
         return false;
     }
